@@ -55,7 +55,7 @@ def main():
     result = marvelcharcall(rand, keyhash, pubkey, args.hero)
 
     ## display results
-    pprint(result)
+    pprint(result.keys())
 
 ## Define arguments to collect
 if __name__ == '__main__':
