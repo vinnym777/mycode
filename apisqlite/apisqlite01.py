@@ -72,6 +72,7 @@ def main():
             ** Returned data will be written into the local database **
             1) Search for All Movies Containing String
             2) Search for Movies Containing String, and by Type
+            3) Search for Movie Type, Ignore Option 2
             99) Exit""")
 
             answer = input("> ") # collect an answer for testing
